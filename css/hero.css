@@ -1,0 +1,46 @@
+.section {
+    position: relative;
+    background: #ffffff;
+    padding-top: 96px;
+}
+@media screen and (max-width: 521px) {
+    .section {
+        padding-top: 144px;
+    }
+}
+.section--dark {
+    background-color: #202124;
+}
+.hero .hero--centered {
+    width: 100%;
+    padding-top: 104px;
+    padding-top: 0px;
+}
+.container {
+    max-width: 392px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+@media screen and (min-width: 921px) {
+    .container {
+        padding: 0 40px;
+        max-width: 840px;
+    }
+}
+.container--hero {
+    max-width: 1500px;
+}
+.hero.hero--centered .container--hero {
+    min-height: 15.625rem;
+}
+.hero.hero--centered .column {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h1 {
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
